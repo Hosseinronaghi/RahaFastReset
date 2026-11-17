@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Raha Fast Reset</string>
+    <string name="tagline">A local, transparent factory-reset tool</string>
+    <string name="build_info">%1$s • Android %2$s</string>
+    <string name="ready">Ready for reset</string>
+    <string name="ready_description">The required Android administrative role is available. Reset permanently erases device data. Back up important files first.</string>
+    <string name="admin_missing">Administrator access required</string>
+    <string name="admin_instructions">Android requires you to explicitly activate device administrator permission before this legacy reset method can run.</string>
+    <string name="enable_admin">Enable device administrator</string>
+    <string name="admin_explanation">Raha Fast Reset only uses this permission when you press Reset. No network or remote actions.</string>
+    <string name="owner_missing">Device Owner required</string>
+    <string name="owner_instructions">On the managed build, Android permits device-wide reset only for a provisioned Device Owner. Installing an ordinary app does not grant this role. Provision on a dedicated test device or use the system reset settings.</string>
+    <string name="not_primary">Not the main device user</string>
+    <string name="not_primary_description">This app refuses to erase only a secondary user or work profile while claiming to reset the whole device.</string>
+    <string name="not_supported">Reset is not supported here</string>
+    <string name="reset_button">Factory reset device</string>
+    <string name="one_tap_label">One-tap reset after initial setup</string>
+    <string name="one_tap_consent_title">Enable irreversible one-tap reset?</string>
+    <string name="one_tap_consent_message">If enabled, pressing the large Reset button will immediately request a factory reset without another confirmation. All local personal data may be permanently lost. Only enable this on a device you own and intend to erase.</string>
+    <string name="enable_one_tap">I understand — enable</string>
+    <string name="final_warning_title">Erase device now?</string>
+    <string name="final_warning_message">This operation may permanently delete photos, files, apps, accounts and local data. Back up your device. The operation cannot be undone. Do you want to continue?</string>
+    <string name="erase_now">Erase now</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="reset_failed">Android blocked the reset</string>
+    <string name="reset_failed_message">The requested reset did not start (%1$s). Verify the administrative role and Android version. No bypass is attempted.</string>
+    <string name="reset_requested">Reset requested from Android…</string>
+    <string name="safety_notice">This app does not bypass Factory Reset Protection (FRP), erase external SD cards, remove accounts in cloud backups, or guarantee secure erasure of every storage medium.</string>
+    <string name="open_system_settings">Open system privacy settings</string>
+    <string name="disable_admin">Remove administrator access</string>
+    <string name="disable_admin_title">Disable device administration?</string>
+    <string name="disable_admin_message">Android administrator access will be removed and the legacy reset feature will no longer be available until you enable it again.</string>
+    <string name="managed_warning_title">Managed by Device Owner</string>
+    <string name="managed_warning">The Device Owner role is managed by Android provisioning and cannot be removed by this ordinary in-app toggle. Reset or reprovision a test device using approved tools.</string>
+</resources>

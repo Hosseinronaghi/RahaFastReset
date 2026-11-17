@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Raha Fast Reset</string>
+    <string name="tagline">بازنشانی کارخانه‌ای، ساده، شفاف و بدون ارتباط اینترنتی</string>
+    <string name="build_info">%1$s • اندروید %2$s</string>
+    <string name="ready">آماده بازنشانی</string>
+    <string name="ready_description">دسترسی موردنیاز اندروید فعال است. بازنشانی اطلاعات دستگاه را برای همیشه حذف می‌کند. ابتدا از فایل‌های مهم نسخه پشتیبان بگیرید.</string>
+    <string name="admin_missing">نیازمند مجوز مدیریت دستگاه</string>
+    <string name="admin_instructions">برای استفاده از روش قدیمی، باید مجوز مدیریت دستگاه را شخصاً در پنجره رسمی اندروید فعال کنید.</string>
+    <string name="enable_admin">فعال‌سازی مدیریت دستگاه</string>
+    <string name="admin_explanation">رها فقط هنگامی که خودتان دکمه بازنشانی را بزنید از این مجوز استفاده می‌کند. ارتباط اینترنتی یا فرمان از راه دور ندارد.</string>
+    <string name="owner_missing">نیازمند مالکیت مدیریتی دستگاه</string>
+    <string name="owner_instructions">در نسخه مدیریتی، ریست کامل فقط برای Device Owner مجاز است. نصب عادی این نقش را ایجاد نمی‌کند. از دستگاه آزمایشی مدیریت‌شده یا تنظیمات بازنشانی اندروید استفاده کنید.</string>
+    <string name="not_primary">این کاربر، کاربر اصلی دستگاه نیست</string>
+    <string name="not_primary_description">برنامه از حذف صرفاً یک حساب ثانویه یا نمایه کاری، به‌جای ریست کامل گوشی، جلوگیری می‌کند.</string>
+    <string name="not_supported">بازنشانی در این شرایط پشتیبانی نمی‌شود</string>
+    <string name="reset_button">بازنشانی کارخانه‌ای گوشی</string>
+    <string name="one_tap_label">بازنشانی با یک لمس پس از راه‌اندازی</string>
+    <string name="one_tap_consent_title">بازنشانی تک‌لمسی فعال شود؟</string>
+    <string name="one_tap_consent_message">پس از فعال‌سازی، لمس دکمه بزرگ بازنشانی بدون پرسش دوباره، درخواست پاک‌شدن کامل اطلاعات را ارسال می‌کند. این عملیات برگشت‌ناپذیر است. فقط روی دستگاه متعلق به خودتان و با قصد قطعی پاک‌کردن فعال کنید.</string>
+    <string name="enable_one_tap">متوجه شدم؛ فعال کن</string>
+    <string name="final_warning_title">همین حالا اطلاعات پاک شود؟</string>
+    <string name="final_warning_message">عکس‌ها، فایل‌ها، برنامه‌ها، حساب‌ها و اطلاعات محلی ممکن است برای همیشه حذف شوند. ابتدا پشتیبان بگیرید. این عملیات برگشت‌ناپذیر است. ادامه می‌دهید؟</string>
+    <string name="erase_now">پاک‌کردن اطلاعات</string>
+    <string name="cancel">انصراف</string>
+    <string name="ok">تأیید</string>
+    <string name="reset_failed">اندروید اجازه بازنشانی نداد</string>
+    <string name="reset_failed_message">درخواست بازنشانی آغاز نشد (%1$s). وضعیت دسترسی مدیریتی و نسخه اندروید را بررسی کنید. برنامه محدودیت‌ها را دور نمی‌زند.</string>
+    <string name="reset_requested">درخواست بازنشانی به اندروید ارسال شد…</string>
+    <string name="safety_notice">این برنامه قفل FRP را دور نمی‌زند، پاک‌شدن کارت SD خارجی یا نسخه‌های پشتیبان ابری را تضمین نمی‌کند و ابزار پاک‌سازی امن تمام رسانه‌ها نیست.</string>
+    <string name="open_system_settings">بازکردن تنظیمات حریم خصوصی</string>
+    <string name="disable_admin">لغو دسترسی مدیریت دستگاه</string>
+    <string name="disable_admin_title">مدیریت دستگاه غیرفعال شود؟</string>
+    <string name="disable_admin_message">با حذف دسترسی، امکان بازنشانی به روش قدیمی تا فعال‌سازی دوباره از دست می‌رود.</string>
+    <string name="managed_warning_title">مدیریت‌شده با Device Owner</string>
+    <string name="managed_warning">نقش Device Owner توسط فرایند راه‌اندازی اندروید مدیریت می‌شود و از این دکمه ساده قابل حذف نیست. برای دستگاه آزمایشی از فرایند رسمی بازنشانی یا راه‌اندازی مجدد استفاده کنید.</string>
+</resources>
